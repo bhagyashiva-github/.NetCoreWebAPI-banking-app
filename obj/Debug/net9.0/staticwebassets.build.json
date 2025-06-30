@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "883PL3ym+w4uSzWGNT8KEjoMn+0MWjoLqZia2Sge2sI=",
+  "Source": "coreAPI-banking-app",
+  "BasePath": "_content/coreAPI-banking-app",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

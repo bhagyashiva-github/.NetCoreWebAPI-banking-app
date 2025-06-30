@@ -1,0 +1,6 @@
+@coreAPI_banking_app_HostAddress = http://localhost:5246
+
+GET {{coreAPI_banking_app_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

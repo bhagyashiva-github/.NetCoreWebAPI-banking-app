@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/coreAPI-banking-app.props" />
+</Project>
