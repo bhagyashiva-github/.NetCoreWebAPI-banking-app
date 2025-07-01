@@ -30,7 +30,7 @@ app.MapControllers();
 
 app.Run();
 
-#region Swagger Authorize Button Logic
+#region Swagger Authorize Button Logic - Implementation in Progress
 // builder.Services.AddSwaggerGen(options =>
 // {
 //     options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
@@ -59,7 +59,7 @@ app.Run();
 // });
 #endregion
 
-#region JWT Implementation Logic 
+#region JWT Implementation Logic - Implementation in Progress
 //var jwtKey = builder.Configuration["Jwt:Key"];
 
 // if (string.IsNullOrWhiteSpace(jwtKey))

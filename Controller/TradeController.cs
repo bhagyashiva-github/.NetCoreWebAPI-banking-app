@@ -37,7 +37,7 @@ namespace coreAPIData.Controllers
                 .Include(t => t.Instrument)
                 .AsQueryable();
 
-            // 🧠 Filtering
+            // Filtering
             if (!string.IsNullOrEmpty(tradeType))
                 query = query.Where(t => t.Tradetype == tradeType);
 
@@ -47,7 +47,7 @@ namespace coreAPIData.Controllers
             if (!string.IsNullOrEmpty(brokerSearch))
                 query = query.Where(t => t.Brokername != null && t.Brokername.Contains(brokerSearch));
 
-            // 🧮 Sorting
+            // Sorting
             query = sortBy switch
             {
                 "Price" => descending ? query.OrderByDescending(t => t.Priceperunit) : query.OrderBy(t => t.Priceperunit),
@@ -56,7 +56,7 @@ namespace coreAPIData.Controllers
                 _ => descending ? query.OrderByDescending(t => t.Tradedate) : query.OrderBy(t => t.Tradedate),
             };
 
-            // 📦 Pagination
+            // Pagination
             var totalItems = await query.CountAsync();
             var trades = await query
                 .Skip((page - 1) * pageSize)

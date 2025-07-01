@@ -140,3 +140,4 @@
 /Users/bhagyasriramkumar/dotnetcoreAPI-banking-app/coreAPI-banking-app/obj/Debug/net9.0/coreAPI-banking-app.pdb
 /Users/bhagyasriramkumar/dotnetcoreAPI-banking-app/coreAPI-banking-app/obj/Debug/net9.0/coreAPI-banking-app.genruntimeconfig.cache
 /Users/bhagyasriramkumar/dotnetcoreAPI-banking-app/coreAPI-banking-app/obj/Debug/net9.0/ref/coreAPI-banking-app.dll
+/Users/bhagyasriramkumar/dotnetcoreAPI-banking-app/coreAPI-banking-app/obj/Debug/net9.0/coreAPI-banking-app.sourcelink.json
